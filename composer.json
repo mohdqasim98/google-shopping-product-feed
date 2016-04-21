@@ -1,0 +1,22 @@
+{
+    "name": "elliotreed/google-shopping-feed",
+    "description": "Google Shopping Feed API",
+    "homepage": "https://github.com/elliotreed/google-shopping-feed",
+    "license": "GPLv3",
+    "keywords" : ["Google","Shopping","Google Shopping Feed","Feed","API","PHP","AdWords"],
+    "authors": [
+        {
+            "name": "Elliot J. Reed",
+            "email": "google-shopping-feed-php@elliotjreed.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NinthYard\\GoogleShoppingFeed": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
