@@ -24,6 +24,15 @@ For more information see: https://support.google.com/merchants/answer/188494?hl=
 composer require NinthYard/google-shopping-product-feed
 ```
 
+###Standard Installation
+If one is not using composer or vendor/autoload.php, just require the following prior to using:
+```
+require('src/NinthYard/GoogleShoppingFeed/Feed.php');
+require('src/NinthYard/GoogleShoppingFeed/Item.php');
+require('src/NinthYard/GoogleShoppingFeed/Node.php');
+require('src/NinthYard/GoogleShoppingFeed/Containers/GoogleShopping.php');
+```
+
 ##Usage
 
 ###Examples

@@ -4,19 +4,39 @@
     "homepage": "https://github.com/elliotreed/google-shopping-feed",
     "license": "GPLv3",
     "keywords" : ["Google","Shopping","Google Shopping Feed","Feed","API","PHP","AdWords"],
-    "authors": [
-        {
-            "name": "Elliot J. Reed",
-            "email": "google-shopping-feed-php@elliotjreed.com"
-        }
-    ],
+	"homepage": "http://www.ninthyard.co.uk",
+	"time": "2016-04-21",
+	"authors": [
+		{
+			"name": "Elliot J. Reed",
+			"email": "google-shopping-product-feed@elliotjreed.com",
+			"homepage": "http://www.elliotjreed.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "google-shopping-product-feed@ninthyard.co.uk",
+		"issues": "https://github.com/NinthYard/google-shopping-product-feed/issues",
+		"source": "https://github.com/NinthYard/google-shopping-product-feed",
+		"docs": "http://www.ninthyard.co.uk/google-shopping-product-feed"
+	},
     "require": {
         "php": ">=5.3.0"
     },
     "autoload": {
         "psr-4": {
-            "NinthYard\\GoogleShoppingFeed": "src/"
+            "NinthYard\\GoogleShoppingFeed": ""
         }
     },
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.example.com"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Seldaek/monolog"
+		}
+	],
     "minimum-stability": "dev"
 }
