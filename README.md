@@ -1,5 +1,15 @@
+#Google Shopping Product Feed
+A PHP library to generate a Google Shopping feed. Data to fill the feed could be retrieved from a database, json or xml file, or added manually.
 
-###composer
+Issues, feature requests, and pull requests always welcome!
+
+This has been tested on a UK, German, and French feed so far. Functions to santise data to make it pass Google's Merchant Centre validation have been used and will be added. This mainly applies to edge-cases on size and colour variations.
+
+For more information see: https://support.google.com/merchants/answer/188494?hl=en-GB
+
+##Installation
+
+###Composer (.json)
 
 ```json
 {
@@ -9,14 +19,17 @@
 }
 ```
 
-```Command Line
+###Composer (Command Line)
+```
 composer require NinthYard/google-shopping-product-feed
 ```
+
+##Usage
 
 ###Examples
 Coming soon.
 
-###Usage
+###Overview
 
 ```php
 require('vendor/autoload.php');
