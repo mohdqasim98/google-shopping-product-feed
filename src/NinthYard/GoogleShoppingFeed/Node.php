@@ -1,7 +1,8 @@
 <?php
 namespace NinthYard\GoogleShoppingFeed;
 
-class Node {
+class Node
+{
 
 	/**
 	 * [$name description]

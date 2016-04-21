@@ -4,7 +4,8 @@ namespace NinthYard\GoogleShoppingFeed;
 use NinthYard\GoogleShoppingFeed\Node;
 use NinthYard\GoogleShoppingFeed\Containers\GoogleShopping;
 
-class Item {
+class Item
+{
 
 	CONST INSTOCK 			= 'in stock';
 

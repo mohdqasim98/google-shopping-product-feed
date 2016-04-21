@@ -4,7 +4,8 @@ namespace NinthYard\GoogleShoppingFeed;
 use SimpleXMLElement;
 use NinthYard\GoogleShoppingFeed\Item;
 
-class Feed {
+class Feed
+{
 
 	/**
 	 * [$namespace description]
