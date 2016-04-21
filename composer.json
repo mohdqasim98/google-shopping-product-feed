@@ -1,7 +1,7 @@
 {
-    "name": "elliotreed/google-shopping-feed",
+    "name": "NinthYard/google-shopping-product-feed",
     "description": "Google Shopping Feed API",
-    "homepage": "https://github.com/elliotreed/google-shopping-feed",
+    "homepage": "https://github.com/NinthYard/google-shopping-product-feed",
     "license": "GPLv3",
     "keywords" : ["Google","Shopping","Google Shopping Feed","Feed","API","PHP","AdWords"],
 	"homepage": "http://www.ninthyard.co.uk",
@@ -38,5 +38,5 @@
 			"url": "https://github.com/Seldaek/monolog"
 		}
 	],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev-master"
 }
