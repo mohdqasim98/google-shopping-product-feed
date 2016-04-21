@@ -38,5 +38,5 @@
 			"url": "https://github.com/Seldaek/monolog"
 		}
 	],
-    "minimum-stability": "dev-master"
+    "minimum-stability": "dev"
 }
