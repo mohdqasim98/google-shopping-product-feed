@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NinthYard\\GoogleShoppingFeed\\": ""
+            "NinthYard\\GoogleShoppingFeed\\": ["src/"]
         }
     },
 	"repositories": [
@@ -38,5 +38,6 @@
 			"url": "https://github.com/Seldaek/monolog"
 		}
 	],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
