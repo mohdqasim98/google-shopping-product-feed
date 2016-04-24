@@ -73,7 +73,6 @@ $variant->color('Green');
  *
 **/
 
-}
 
 // boolean value true outputs to browser as XML
 GoogleShopping::asRss(true);
