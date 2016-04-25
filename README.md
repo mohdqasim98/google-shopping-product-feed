@@ -25,7 +25,7 @@ composer require ninthyard/google-shopping-product-feed
 ```
 
 ###Standard Installation
-If one is not using composer or vendor/autoload.php, just require the following prior to using:
+If one is not using composer and including vendor/autoload.php, just require the following prior to using:
 ```
 require('src/NinthYard/GoogleShoppingFeed/Feed.php');
 require('src/NinthYard/GoogleShoppingFeed/Item.php');
