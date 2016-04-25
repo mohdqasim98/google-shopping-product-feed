@@ -36,7 +36,9 @@ require('src/NinthYard/GoogleShoppingFeed/Containers/GoogleShopping.php');
 ##Usage
 
 ###Examples
-Coming soon.
+Please see _examples_using_composer.php_ for a brief look on how to create a Google Shopping feed.
+
+More examples to follow.
 
 ###Overview
 
