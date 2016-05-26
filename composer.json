@@ -65,7 +65,5 @@
       "type": "vcs",
       "url": "https://github.com/NinthYard/google-shopping-product-feed"
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  ]
 }
