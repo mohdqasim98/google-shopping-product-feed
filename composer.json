@@ -50,22 +50,22 @@
     }
   ],
   "minimum-stability": "dev",
-  "prefer-stable": true
-    "autoload": {
-        "psr-4": {
-            "NinthYard\\GoogleShoppingFeed\\": "src"
-        }
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "NinthYard\\GoogleShoppingFeed\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org/packages/ninthyard/google-shopping-product-feed"
     },
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://packagist.org/packages/ninthyard/google-shopping-product-feed"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/NinthYard/google-shopping-product-feed"
-		}
-	],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    {
+      "type": "vcs",
+      "url": "https://github.com/NinthYard/google-shopping-product-feed"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
