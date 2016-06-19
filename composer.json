@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "NinthYard\\GoogleShoppingFeed\\": "src"
+      "NinthYard\\GoogleShoppingFeed\\": "src/NinthYard/GoogleShoppingFeed"
     }
   },
   "repositories": [
